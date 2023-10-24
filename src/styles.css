@@ -1,11 +1,11 @@
 .navigation {
-    background-color: #333; /* Example background color */
+    background-color: #333;
     color: white;
     padding: 10px;
   }
 
   .navigation img {
-    width: 100px; /* Example image width */
+    width: 100px;
     height: auto;
   }
 
@@ -16,7 +16,7 @@
   }
 
   .navigation li {
-    margin: 0 15px; /* Example margin between list items */
+    margin: 0 15px;
   }
 
   .navigation a {
