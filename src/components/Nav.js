@@ -1,8 +1,6 @@
-import React from 'react'
-
 export default function Nav() {
   return (
-    <nav>
+    <nav className="navigation">
         <img src="/logo.svg" alt="logo" />
         <ul>
             <li><a href='/'>Home</a></li>
