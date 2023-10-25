@@ -17,6 +17,16 @@ function App() {
 
           <img src="/images/restauranfood.jpg" alt="logo" className="hero-image" />
         </section>
+
+        <section className="specials">
+          <div className='specials-header'>
+            <h1>This weeks specials!</h1>
+            <button>Online Menu</button>
+          </div>
+
+          <div className='specials-cards'>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
