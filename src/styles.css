@@ -151,6 +151,7 @@ nav li a:hover {
 }
 
 .specials-cards {
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -172,6 +173,36 @@ nav li a:hover {
   object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
+
+.card-content {
+  padding: 10px;
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.title-price p {
+  color: #ee9472;
+  margin: 0;
+}
+
+.card-description {
+  margin-top: 10px;
+  color: #888888;
+  font-size: 1.25rem;
+  height: 200px;
+}
+
+.order-delivery {
+  margin-top: auto;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  font-size: 1.25rem;
+}
+
 
 @media (max-width: 768px) {
   .specials {
