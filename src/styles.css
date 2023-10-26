@@ -309,6 +309,6 @@ footer {
   background-color: #edefee;
   padding: 80px 20% 20px;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
 }
