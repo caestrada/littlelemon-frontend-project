@@ -5,7 +5,8 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Markazi Text', serif;
+  /* font-family: 'Markazi Text', serif; */
+  font-family: 'Karla', sans-serif;
 }
 
 header {
@@ -14,15 +15,21 @@ header {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: 'Markazi Text';
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Markazi Text';
+  line-height: 1rem;
 }
 
 p {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: 18px;
 }
 
 button {
@@ -116,7 +123,7 @@ nav li a:hover {
 }
 
 .content p {
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 10px;
   color: white;
 }
@@ -134,13 +141,17 @@ nav li a:hover {
 /* specials section ---------------------------------------- */
 
 .specials {
-  margin: 0 20%;
+  margin: 20px 20%;
 }
 
 .specials-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.specials-header h1 {
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 768px) {
