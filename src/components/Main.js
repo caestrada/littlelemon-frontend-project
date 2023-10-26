@@ -1,7 +1,7 @@
-import Card from "./Card";
 import Hero from "./Hero";
 import Specials from "./Specials";
 import Testimonials from "./Testimonials";
+import About from "./About";
 
 export default function Main() {
   return (
@@ -9,6 +9,7 @@ export default function Main() {
       <Hero />
       <Specials />
       <Testimonials />
+      <About />
     </main>
   );
 }
