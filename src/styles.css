@@ -68,21 +68,17 @@ nav ul {
   align-items: center;
 }
 
-nav li {
-  padding: 0 10px;
-}
-
-nav li a {
-  vertical-align: middle;
+.nav-item {
   color: #333333;
-  font-weight: bold;
   text-decoration: none;
+  font-weight: bold;
   font-size: 20px;
   transition: color 0.2s;
   white-space: nowrap;
+  padding: 0 10px;
 }
 
-nav li a:hover {
+.nav-item:hover {
   color: #f4ce14;
 }
 

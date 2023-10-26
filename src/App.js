@@ -1,10 +1,10 @@
 import { Routes, Route, Link } from "react-router-dom";
 
-import About from "./components/AboutSection";
-
 import Header from "./components/Header";
-import Main from "./pages/Main";
 import Footer from "./components/Footer";
+
+import Main from "./pages/Main";
+import About from "./pages/About";
 
 function App() {
   return (
