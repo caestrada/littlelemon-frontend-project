@@ -125,7 +125,7 @@ nav li a:hover {
 /* specials section ---------------------------------------- */
 
 .specials {
-  margin: 20px 20%;
+  margin: 80px 20%;
 }
 
 .specials-header {
@@ -213,7 +213,8 @@ nav li a:hover {
 
 /* testimonials section ---------------------------------------- */
 .testimonials {
-  padding: 40px 20%;
+  height: 80%;
+  padding: 100px 20%;
   text-align: center;
   background-color: #edefee;
 }
@@ -257,6 +258,7 @@ nav li a:hover {
 /* about section ---------------------------------------- */
 .about {
   background-color: #495e57;
+  height: 800px;
   padding: 40px 20%;
   display: flex;
   align-items: center;
@@ -286,7 +288,7 @@ nav li a:hover {
 
 .about-image {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: -25%;
   width: 300px;
   height: 300px;
@@ -295,9 +297,18 @@ nav li a:hover {
 
 .about-image-overlap {
   position: absolute;
-  top: 0;
+  top: -25%;
   left: 0;
   width: 300px;
   height: 300px;
   object-fit: cover;
+}
+
+/* footer ---------------------------------------- */
+footer {
+  background-color: #edefee;
+  padding: 80px 20% 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
