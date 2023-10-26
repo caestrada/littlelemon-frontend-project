@@ -210,3 +210,46 @@ nav li a:hover {
     margin-bottom: 20px;
   }
 }
+
+/* testimonials section ---------------------------------------- */
+.testimonials {
+  padding: 40px 20%;
+  text-align: center;
+  background-color: #edefee;
+}
+
+.testimonials h2 {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.testimonial-cards {
+  text-align: start;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  width: 250px;
+  height: 200px;
+  padding: 0 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.testimonial-image-name {
+  display: flex;
+  justify-content: space-between;
+}
